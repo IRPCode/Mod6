@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:text="Recipes" />
+
+    <Button
+        android:id="@+id/recipeButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baked Apples" />
+
+    <Button
+        android:id="@+id/recipeButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ice Cream" />
+
+    <Button
+        android:id="@+id/recipeButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stegt Flaesk" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <ImageView
+        android:id="@+id/foodImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitStart"
+        android:padding="10dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/recipeText"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:padding="10dp"
+        android:text="TextView" />
+
+</LinearLayout>
